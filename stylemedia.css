@@ -1,0 +1,191 @@
+/*MEDIAQUERY*/
+@media screen and (min-width:1440px){
+  
+
+   /*NAV*/                                                          /*NAV*/ 
+   .logo{
+       margin-left: 2em;
+   }
+    .open{
+        display: none;
+    }
+    .close{
+        display:none;
+    }
+    
+    ul{
+        list-style: none;
+        background: white;
+        height:3em;
+        width:auto;
+        top:0;
+        line-height: 1em;
+        right:5rem;
+        display:flex;
+        flex-direction:row;
+        justify-content: flex-end;
+        align-items:center;
+        }
+     .ulstyle{
+        
+        list-style: none;
+        padding: 0 0 1 0rem;
+        font-family: 'IBM Plex Mono';
+        font-size: 14px;
+        color: #060A24;
+        letter-spacing: 1;
+     }   
+     /*PUNTOAZUL*/
+     .puntozul{
+        color: blue;
+    }
+    /*PRIMER BLOQUE*/                                                                    /*PRIMER BLOQUE*/
+
+        .titulo1{
+            padding: 0 1rem;
+            margin-top:3em;
+            margin-left: 3rem;
+        }
+        .subtitulo{
+            padding: 0 1rem;
+            margin-left: 3rem;
+            
+        }
+      .boton1{
+        padding: 0 1rem;
+        margin-left: 4rem;
+      }
+      /*BLOQUE EPISODIOS*/                                                            /*BLOQUE EPISODIOS*/
+
+      .contenedorepisodios{
+        background-image: linear-gradient(225deg, #0000FF 0%, #0000A3 100%);
+        width: 100%;
+        height: 50em;
+        transform: skewY(-4deg);
+        transform-origin: top left;
+        margin-top: 6em;
+       
+    }
+    .flex{
+        margin: 1em;
+        display: flex;
+        flex-direction: row;
+        padding: 0em 3em;
+        justify-content: space-around;
+        margin-top: 1em;
+    }
+    .iframespotify{
+        margin: 2em;
+        width: 100%;
+
+    }
+
+      
+    
+        /*CONTENEDORCELULAR*/                                                   /*CONTENEDORCELULAR*/
+      .contenedormedia{
+        display: flex;
+        flex-direction: row;
+        align-content: center;
+       
+        }
+
+      .celular img{
+        width: 20em;
+        height: 35em;
+        margin-left: 10em;
+        margin-top: -5em;
+        margin-bottom: 300px;
+        transform: skew(0deg, 0deg);
+    }
+    .contenedormedia{
+        margin-left: 10em;
+    }
+        .dondevenimos{
+            margin-left:9em ;
+        }
+      
+        .parrafos{
+            margin-left: 20em;
+            width: 28em;
+            margin-top: 2em;
+
+        }
+        .parrafomargen1{
+            margin-top: 1em;
+
+        }
+        .parrafomargen{
+            margin-top: 2em;
+        }
+
+        /*BLOQUE INVITADOS*/                                                    /*BLOQUE INVITADOS*/
+
+        .invitados{
+            margin-left: 5em;
+        }
+        .imagenesinvitados{
+            width: 33vw;
+            display: flex;
+
+        }
+        
+        /*BLOQUE BOTONES*/                                                        /*BLOQUE BOTONES*/
+        .botones{
+            display: flex;
+            justify-content: space-around;
+            margin-left: 1em;
+
+        }
+
+
+        /*BLOQUE NOVEDADES*/                                                            /*BLOQUE NOVEDADES*/
+         .novedades{
+             margin-top: 3em;
+         }
+         .botonfooter{
+            margin-top: 5em;
+            display: inline-block;
+        }
+        .botonfooter:hover{
+            font-family: 'IBM Plex Mono';
+           font-size: 18px;
+           color: #FFFFFF;
+           letter-spacing: 0;
+           text-align: center;
+           line-height: 24px;
+            background-image: linear-gradient(225deg, #0000FE 0%, #00F0B8 100%);
+           }
+        .contenedornovedades{
+            width: 100%;
+            height: 330px;
+            background-image: linear-gradient(225deg, #0000FF 0%, #0000A3 100%);
+            clip-path: polygon(0 25%, 100% 0, 100% 100%, 0% 100%);
+            display:flex;
+            flex-direction: column;
+            box-sizing: border-box;
+        }
+
+         /*FOOTER*/                                                                         /*FOOTER*/
+         .footercontainer{
+            display: flex;
+            flex-direction: row ;
+            justify-content: space-around;
+            padding: 3em;
+           width: 96em;
+         }
+         .bluepale{
+             margin-top: 1em;
+             width: 100vw;
+             display: flex;
+             justify-content: center;
+             margin-left: -40em;
+         }
+        
+         .socialmedia{
+             width: 20vw;
+             display:flex;
+             justify-content:space-around;
+        
+         }
+}
